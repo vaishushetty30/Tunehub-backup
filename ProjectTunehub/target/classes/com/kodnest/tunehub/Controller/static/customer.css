@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Set background color */
+}
+
+p {
+    text-align: center; /* Center align the text */
+    font-size: 24px; /* Set font size */
+    margin-top: 50px; /* Add some top margin */
+}
+
+form {
+    text-align: center; /* Center align the form */
+    margin-top: 20px; /* Add some top margin */
+}
+
+input[type="submit"] {
+    background-color: #007bff; /* Set button background color */
+    color: #fff; /* Set button text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding */
+    font-size: 16px; /* Set font size */
+    cursor: pointer; /* Change cursor on hover */
+    border-radius: 4px; /* Add border radius */
+    transition: background-color 0.3s; /* Add transition for smooth hover effect */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darken background color on hover */
+}

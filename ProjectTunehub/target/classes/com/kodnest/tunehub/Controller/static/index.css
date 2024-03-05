@@ -1,0 +1,56 @@
+body {
+	font-family: proximanova-regular-webfont, Arial, sans-serif;
+	margin: auto;
+	background-color: rgb(255, 255, 255);
+	background-image:
+		url(https://a10.gaanacdn.com/images/section/loginBg-light_1703675319.png);
+	border-bottom-color: rgb(0, 0, 0);
+	display: grid;
+	place-items: center; 
+	margin : 0 auto;
+	width: 50%;
+	border: 3px black;
+	padding: 10px;
+}
+
+.container {
+	color: red; 
+	/* text-align : center; */
+	height: 300px;
+	width: 400px;
+	margin-top: 200px;
+	border-radius: 20px;
+	text-align: center;
+}
+
+h2, h3, h4{
+}
+
+.sub-container {
+	font-family: proximanova-regular-webfont, Arial, sans-serif;
+	color: black;
+}
+
+h4{
+	color: #5a5a5a;
+}
+
+a {
+	text-decoration: none;
+	background-color: grey;
+	color: black;
+	border-radius: 4px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	width: 120px;
+	display: flex;
+	margin-left: 40%;
+	justify-content: center;
+	margin: auto;
+}
+
+a:hover {
+	background-color: beige;
+}
+ 

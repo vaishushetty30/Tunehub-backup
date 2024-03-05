@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Set background color */
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center; /* Center align the heading */
+}
+
+form {
+    width: 50%; /* Set form width */
+    margin: 0 auto; /* Center the form horizontally */
+    background-color: #fff; /* Set form background color */
+    padding: 20px; /* Add some padding */
+    border-radius: 5px; /* Add border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 10px; /* Add bottom margin */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%; /* Set input width to 100% */
+    padding: 10px; /* Add padding */
+    margin-bottom: 20px; /* Add bottom margin */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+input[type="radio"] {
+    margin-right: 10px; /* Add right margin for radio buttons */
+}
+
+input[type="submit"] {
+    background-color: #007bff; /* Set button background color */
+    color: #fff; /* Set button text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding */
+    font-size: 16px; /* Set font size */
+    cursor: pointer; /* Change cursor on hover */
+    border-radius: 4px; /* Add border radius */
+    transition: background-color 0.3s; /* Add transition for smooth hover effect */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darken background color on hover */
+}

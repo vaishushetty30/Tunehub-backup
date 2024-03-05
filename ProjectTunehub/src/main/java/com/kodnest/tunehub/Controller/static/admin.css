@@ -1,0 +1,44 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: auto;
+    background-color: white;
+    display: grid;
+    place-items: center;
+    center {
+    margin: auto;
+    width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+.container {
+    text-align: center; /* Center-align the content */
+    margin-top: 100px; /* Add some top margin for spacing */
+}
+
+/* Apply styles to the heading */
+.container p {
+    font-size: 24px; /* Set the font size */
+    color: #333; /* Set the text color */
+}
+
+/* Apply styles to the forms */
+form {
+    margin-top: 20px; /* Add some top margin for spacing */
+}
+
+/* Apply styles to the submit buttons */
+input[type="submit"] {
+    background-color: #007bff; /* Set the background color */
+    color: #fff; /* Set the text color */
+    padding: 10px 20px; /* Add padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Apply hover styles to the submit buttons */
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darken the background color on hover */
+}
+}

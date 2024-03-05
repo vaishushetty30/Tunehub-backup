@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>CUSTOMER</title>
+<link rel=stylesheet type=text/css th:href="@{customer.css}">
+</head>
+<body>
+	<p>Customer</p>
+
+	<!-- <form action="playsongs">
+<input type="submit" value="play songs">
+<br><br>
+</form> -->
+
+	<div th:unless="${ispremium}" class="non-premium">
+		<form action="pay">
+			<input type="submit" value="GET PREMIUM">
+		</form>
+		<br>
+		<br>
+		<form action="logout">
+			<input type="Submit" value="LOGOUT">
+		</form>
+
+
+	</div>
+	<div th:if="${ispremium}" class="premium">
+	<table border="1">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Artist</th>
+				<th>Genre</th>
+				<th>Play</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:each="song:${songs}">
+				<td th:text="${song.name}"></td>
+				<td th:text="${song.artist}"></td>
+				<td th:text="${song.genre}"></td>
+				<td>
+				<audio controls>
+						<source th:src="${song.link}">
+					</audio></td>
+			</tr>
+		</tbody>
+	</table>
+	</div>
+
+</body>
+</html>
